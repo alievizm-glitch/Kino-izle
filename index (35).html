@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HD Film & Dizi İzle</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome ikonları için -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Üst Menü (Header) -->
+    <header class="navbar">
+        <div class="logo">HD<span>Film</span></div>
+        <div class="search-box">
+            <input type="text" placeholder="Film veya dizi ara...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+
+    <!-- Kategoriler Yatay Kaydırma Çubuğu -->
+    <nav class="categories">
+        <a href="#" class="active">Tümü</a>
+        <a href="#">Aksiyon</a>
+        <a href="#">Bilim Kurgu</a>
+        <a href="#">Dram</a>
+        <a href="#">Korku</a>
+        <a href="#">Komedi</a>
+        <a href="#">Yerli</a>
+    </nav>
+
+    <!-- Ana İçerik / Film Listesi -->
+    <main class="container">
+        <h2>Trend Filmler & Diziler</h2>
+        
+        <div class="movie-grid">
+            <!-- Film Kartı 1 -->
+            <div class="movie-card" onclick="location.href='izle.html'">
+                <div class="poster">
+                    <span class="imdb">9.1</span>
+                    <img src="https://picsum.photos/300/450?random=1" alt="Film Afişi">
+                    <div class="play-overlay"><i class="fas fa-play"></i></div>
+                </div>
+                <div class="movie-info">
+                    <h3>Pluribus</h3>
+                    <p>2025 • Dram, Bilim Kurgu</p>
+                </div>
+            </div>
+
+            <!-- Film Kartı 2 -->
+            <div class="movie-card" onclick="location.href='izle.html'">
+                <div class="poster">
+                    <span class="imdb">7.9</span>
+                    <img src="https://picsum.photos/300/450?random=2" alt="Film Afişi">
+                    <div class="play-overlay"><i class="fas fa-play"></i></div>
+                </div>
+                <div class="movie-info">
+                    <h3>Bıçaklar Çekildi: Ölü Adamın Uyanışı</h3>
+                    <p>2025 • Gizem, Suç</p>
+                </div>
+            </div>
+
+            <!-- Film Kartı 3 -->
+            <div class="movie-card" onclick="location.href='izle.html'">
+                <div class="poster">
+                    <span class="imdb">8.7</span>
+                    <img src="https://picsum.photos/300/450?random=3" alt="Film Afişi">
+                    <div class="play-overlay"><i class="fas fa-play"></i></div>
+                </div>
+                <div class="movie-info">
+                    <h3>Stranger Things</h3>
+                    <p>2016 • Fantastik, Korku</p>
+                </div>
+            </div>
+
+            <!-- Film Kartı 4 -->
+            <div class="movie-card" onclick="location.href='izle.html'">
+                <div class="poster">
+                    <span class="imdb">7.5</span>
+                    <img src="https://picsum.photos/300/450?random=4" alt="Film Afişi">
+                    <div class="play-overlay"><i class="fas fa-play"></i></div>
+                </div>
+                <div class="movie-info">
+                    <h3>Predator: Vahşi Topraklar</h3>
+                    <p>2025 • Aksiyon, Macera</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Alt Menü (Mobil İçin Sabit) -->
+    <footer class="mobile-nav">
+        <a href="index.html" class="active"><i class="fas fa-home"><span>Ana Sayfa</span></i></a>
+        <a href="#"><i class="fas fa-compass"><span>Keşfet</span></i></a>
+        <a href="#"><i class="fas fa-film"><span>Arşiv</span></i></a>
+    </footer>
+
+</body>
+</html>

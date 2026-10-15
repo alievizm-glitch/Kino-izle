@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film İzle - Oynatıcı</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="watch-body">
+
+    <!-- Üst Bar -->
+    <header class="navbar">
+        <a href="index.html" class="back-btn"><i class="fas fa-arrow-left"></i> Geri</a>
+        <div class="logo">HD<span>Film</span></div>
+    </header>
+
+    <!-- Video Oynatıcı Alanı (Embed / Iframe buraya gelecek) -->
+    <div class="player-container">
+        <div class="responsive-iframe">
+            <!-- Buraya istediğiniz embed video kodunu (diğer sitelerden aldığınız iframe'i) yapıştırabilirsiniz -->
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video Oynatıcı" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Film Detay ve Bölüm Seçenekleri -->
+    <div class="watch-details">
+        <h1>Pluribus - 1. Sezon 1. Bölüm</h1>
+        <p class="meta-desc">2025 yapımı harika bir dizi/film içeriği. Diğer sitelerin sunduğu sorunsuz altyapı ve kaynaklar üzerinden kesintisiz izleyin.</p>
+        
+        <!-- Alternatif Kaynak Seçenekleri (Sunucular) -->
+        <div class="server-options">
+            <span>Kaynak Seç:</span>
+            <button class="server-btn active">Server 1 (VIP)</button>
+            <button class="server-btn">Server 2 (Alternatif)</button>
+        </div>
+    </div>
+
+</body>
+</html>
